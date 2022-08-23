@@ -1,3 +1,7 @@
+
+
+/* Filter Array */
+
 const items = [
 
     { name: 'bike',     price: 100 },
@@ -9,3 +13,15 @@ const items = [
     
 ]
 
+ const filteredItems = items.filter((item) =>  {
+    return item.price <= 100
+
+ })
+
+
+console.log(filteredItems);
+
+
+
+
+/*  */
